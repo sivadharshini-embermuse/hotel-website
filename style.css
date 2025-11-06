@@ -1,0 +1,386 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Keep default cursor (don't hide it!) */
+
+.cursor-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: transparent; /* no visible fill */
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    
+    /* glow effect using box-shadow */
+    box-shadow: 0 0 15px 8px #f0e68c;
+   /* border-radius: 50%; /* optional, to keep shadow smooth */
+
+  
+}
+
+.navbarss{
+  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bg-navbar{
+    background-color: rgb(169, 223, 169);
+    background-size: cover;
+}
+.bgcus{
+    background-color: rgb(13, 6, 77);
+}
+.knifelogo{
+    height: 10vh;
+    width: 10vh;
+    background-color:#9351f6;
+    border-radius: 30px;
+    padding: 6px;
+    margin-left: 20px;
+ 
+}
+
+.nanba{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.nanba:hover{
+    color: hsl(264, 56%, 47%);
+}
+.curosel{
+    width: 100vw;
+    height: 100vh;
+}
+.link{
+    padding:20px;
+}
+.home-bg{
+    background-color: rgb(13, 6, 77);
+    background-size: cover ;
+    height: 100vh;
+    width: 100vw;
+    padding-top:80px;
+}
+
+.heading-home{
+    color:rgb(255, 255, 255);
+    font-family: "Bree serif";
+    font-size: 70px;
+    padding: 70px;
+    text-align: left;
+    padding-bottom: 0;
+ 
+}
+.plateimahe{
+    height: 80vh;
+    width:80vw;
+    border-radius: 10px;
+    display: block !important;
+}
+
+.parahome{
+    color:rgb(255, 255, 255);
+    font-family: "Bree serif";
+    font-size: 20px;
+    text-align: left;
+    padding:12px ;
+ 
+}
+.custon{
+    background-color: #9351f6;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    color: white;
+
+    
+}
+
+  
+  .wrapper{
+    position: left;
+    padding-left: 200px;
+    margin: 40px;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  .ad{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #7943e4;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #370672;
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #8728f4;
+    transition: all .35s;
+  }
+  
+  .ad:hover{
+    width: 200px;
+    border: 3px solid #5b23d4;
+    background: transparent;
+    color: #6712cf;
+  }
+  
+  .ad:hover + .icon{
+    border: 3px solid #5f2fc5;
+    right: -25%;
+  }
+.aboutusheading{
+      font-family: "WindSong", cursive;
+      font-weight: 400;
+      font-style: normal;
+      padding: 50px;
+      text-align: center;
+}
+.savorstreet{
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#f0e68c;
+}
+.aboutuspara{
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #772ed0;
+}
+
+
+.aboutusparas{
+  color: #772ed0;
+}
+.kkk{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inagerest{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ 
+}
+.backgroundok{
+  background-color: #8565cc;
+  background-size: cover;
+  height:100%;
+  width: 100vw;
+  padding: 20px;
+}
+.headinservice{
+  color: rgb(233, 231, 239);
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 40px;
+}
+.headinservices{
+  color: rgb(48, 22, 128);
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.card-titles{
+  color: #afa011;
+}
+.leads{
+  color:#f0e68c;
+}
+.sa:hover{
+  transform: translateX(-10px);
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+.sa:active{
+  transform: translateY(0px);
+  transition: transform 0.05s ease; 
+}
+
+
+.about-us{
+  background-color: white;
+  background-size: cover;
+  height: 110%;
+  padding: 20px;
+}
+.muu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+}
+.wcu-section {
+    background-color: #a20ecb;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color:rgb(215, 212, 217);
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+    padding: 20px;
+}
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+    height:80%;
+    width: 100%;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+    line-height: 1;
+   
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ 
+.menu-item-card {
+    border-radius: 16px;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    overflow: hidden; 
+    background-color:rgb(250, 248, 250); 
+ 
+}
+.contact-bg-in{
+  background-color: #402363;
+  background-size: cover;
+  height:50vh;
+  width: 100vw;
+}
+.headinservicess{
+  color:#d0b200;
+  font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.icons-at-contact{
+  background-color: #d2bcdd;
+  border-radius: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+}
+.contactmail{
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #d0b200;
+}
+.contactmails{
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #d0b200;
+}
